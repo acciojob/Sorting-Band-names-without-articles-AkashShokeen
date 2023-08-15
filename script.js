@@ -7,7 +7,7 @@ for(let i =0;i<arr.length;i++){
 	for(let i=0;i<words.length;i++)
 		{
 			let currentword=words[i].toLowerCase();
-			if(currentword!=='a'&& currentword!=='an'&& currentword!=='the')
+			if(currentword!=="a"&& currentword!=="an"&& currentword!=="the")
 				finalstring+=words[i]+" ";
 		
 }
