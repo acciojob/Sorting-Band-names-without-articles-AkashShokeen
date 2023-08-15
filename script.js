@@ -4,7 +4,7 @@ let mp={};
 for(let i =0;i<arr.length;i++){
 	let words = arr[i].split(" ");}
 	let finalstring="";
-	for(let j=0;j<words.length;j++)
+	for(let i=0;i<words.length;i++)
 		{
 			let currentword=words[i].toLowerCase();
 			if(currentword!=='a'&& currentword!=='an'&& currentword!=='the')
